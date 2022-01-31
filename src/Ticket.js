@@ -6,13 +6,13 @@ export function Ticket({ from,subject,message,status,assignee,date,priority,dele
             <Card className="ticket-container">
             
             <CardContent>
-            <h3>{from}</h3>
-            <h3>{subject}</h3>
-            <h3>{message}</h3>
-            <h3>{status}</h3>
-            <h3>{assignee}</h3>
-            <h3>{date}</h3>
-            <h3>{priority}</h3>
+            <h3>From: {from}</h3>
+            <h3>Subject :{subject}</h3>
+            <h3>Message :{message}</h3>
+            <h3>Status :{status}</h3>
+            <h3>Assignee :{assignee}</h3>
+            <h3>Date :{date}</h3>
+            <h3>Priority :{priority}</h3>
             
             <Button variant="contained">Add to Cart</Button>
             <CardActions>
