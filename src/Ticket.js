@@ -14,7 +14,7 @@ export function Ticket({ from,subject,message,status,assignee,date,priority,dele
             <h3>Date :{date}</h3>
             <h3>Priority :{priority}</h3>
             
-            <Button variant="contained">Add to Cart</Button>
+            
             <CardActions>
                 {deleteButton} {editButton}
             </CardActions>
